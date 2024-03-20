@@ -9,7 +9,6 @@ body {
 }
 
 .grid {
-  max-height: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
@@ -39,13 +38,39 @@ body {
   grid-row: 12 / 13;
 }
 
-img {
-  width: 100%;
+/* .bg1 img {
   height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bg2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.laptop img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+.phone img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+} */
+
+img {
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
 .phone img,
 .laptop img {
   object-fit: contain;
+  height: 100%;
+  width: 100%;
 }

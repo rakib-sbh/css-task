@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(23, 1fr);
+  grid-template-rows: 1fr 3fr 1fr 1fr;
+}
+
+.bg1 {
+  grid-column: 9 / 21;
+  grid-row: 1 / 4;
+}
+
+.laptop {
+  grid-column: 1 / 17;
+  grid-row: 2 / 3;
+}
+
+.phone {
+  grid-column: 18 / 24;
+  grid-row: 2 / 3;
+}
+
+.bg2 {
+  grid-column: 9 / 21;
+  grid-row: 4 / 5;
+}
+
+.bg1 img,
+.laptop img,
+.phone img,
+.bg2 img {
+  height: 100%;
+  width: 100%;
+  /* object-fit: contain; */
+}
